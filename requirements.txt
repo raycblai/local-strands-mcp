@@ -1,0 +1,4 @@
+mcp
+strands
+uvicorn
+fastapi
