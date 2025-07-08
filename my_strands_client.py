@@ -16,5 +16,17 @@ with streamable_http_mcp_client:
     print(agent("Add 2 and 3"))
     
     # Example 2: Sorting
-    print("\nExample 2: Sorting")
-    print(agent("Sort these numbers: 5, 2, 9, 1, 7, 3"))
+    print("\nExample 2: Down Sorting")
+    print(agent("Sort these numbers in descending order: 5, 2, 9, 1, 7, 3"))
+
+    # Example 3: Sorting
+    print("\nExample 3: Up Sorting")
+    print(agent("Sort these numbers in ascending order: 5, 2, 109, 1, -7, -30"))
+    
+    # Example 4: Tool selection test
+    print("\nExample 4: Tool selection test")
+    print(agent("What is 10 plus 15?"))
+    
+    # Example 5: Another tool selection test
+    print("\nExample 5: Another tool selection test")
+    print(agent("Can you put these values in order: 42, 17, 33, 8, 21?"))
